@@ -462,8 +462,10 @@ footer .text span a:hover{
   }
   nav .navbar .media-icons {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    gap: 10px;
+    position: absolute;
+    right: 70px;
+    top: 25px;
   }
   nav .menu-btn,
   .navbar .menu .cancel-btn{
