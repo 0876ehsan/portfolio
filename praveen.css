@@ -460,8 +460,10 @@ footer .text span a:hover{
   nav.sticky .menu a:hover{
     color: #4070f4;
   }
-  nav .navbar .media-icons{
-    display: none;
+  nav .navbar .media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
   nav .menu-btn,
   .navbar .menu .cancel-btn{
